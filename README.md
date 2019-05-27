@@ -39,4 +39,4 @@ npm start
 If you find an issue, feel free to contact me or open an issue on github. You can also contribute by creating a pull request.
 
 ## Disclaimer
-I can't be charged for any abusive usage of this software. Be sure you have the proper rights before you run it.
+I can't be charged for any abusive usage or problem of this software. Be sure you have the proper rights before you run it.

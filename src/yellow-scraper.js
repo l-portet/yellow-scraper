@@ -1,7 +1,7 @@
-const staticConfig = require('./get-config')();
 const pup = require('puppeteer');
 const fs = require('fs');
 const convertToCsv = require('./convert-to-csv');
+const getConfig = require('./get-config.js')
 const ora = require('ora');
 const spinners = {
   setup: ora('Setting all up and fetching website'),
@@ -14,8 +14,8 @@ const scrape = require('./scraper');
 const getNbResults = require('./get-nb-results');
 
 class YellowScraper {
-  constructor(dynamicConfig) {
-    this.config = dynamicConfig || staticConfig;
+  constructor(config) {
+    this.config = getConfig(config);
     this.data = [];
     this.nbResults = -2;
     this.timestamp = Date.now();

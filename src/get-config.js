@@ -1,14 +1,6 @@
-let config;
+function getConfig(config) {
 
-try {
-  config = require('../config');
-} catch {
-  config = {};
-}
-
-function getConfig() {
-
-  config = {
+  return {
     query: {
       keyword: config.query && config.query.keyword ? encodeURIComponent(config.query.keyword) : '',
       location:
@@ -27,7 +19,6 @@ function getConfig() {
     baseURL: config.baseURL || 'https://www.pagesjaunes.fr',
     safeMode: config.safeMode || true
   };
-  return config;
 }
 
 module.exports = getConfig;

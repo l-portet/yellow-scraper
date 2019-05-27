@@ -21,11 +21,11 @@ module.exports = {
     userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
     acceptLanguage: 'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7,la;q=0.6',
     outputFilename: 'output',
-    outputFormat: 'csv', // supported format : "json", "csv"
-    maxResults: -1, // -1 or N max allowed results
+    outputFormat: 'csv', // Supported format : 'json', 'csv'
+    maxResults: -1, // -1 => all or N max allowed results (the scraper will stop when the limits is outreached)
     puppeteerArgs: [], // Additional args for puppeteer (like proxy for example)
-    baseURL: 'https://www.pagesjaunes.fr', // only target this domain if you have the rights
-    safeMode: true // safe mode sets a delay between each query
+    baseURL: 'https://www.pagesjaunes.fr', // Only target this domain if you have the proper rights
+    safeMode: true // Safe mode sets a delay between each query
 }
 
 ```

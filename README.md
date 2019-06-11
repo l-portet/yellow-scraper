@@ -1,7 +1,7 @@
 # YellowScraper
 Scrape the french yellow pages (Pages Jaunes) with puppeteer
 
-## 🔧 Installation
+## 🏁 Installation
 ```bash
 npm run install
 ```
@@ -34,9 +34,11 @@ module.exports = {
 ```bash
 npm start
 ```
+## 🔧 Todo
+Export as Excel format (xls)
 
 ## 🐞 Issues
 If you find an issue, feel free to contact me or open an issue on github. You can also contribute by creating a pull request.
 
-## ⚠️ Disclaimer
+## ✋ Disclaimer
 I can't be charged for any abusive usage or problem of this software. Be sure you have the proper rights before you run it.

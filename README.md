@@ -3,7 +3,7 @@ Scrape the french yellow pages (Pages Jaunes) with puppeteer
 
 ## 🏁 Installation
 ```bash
-npm run install
+npm install
 ```
 
 ## 🎈 Usage

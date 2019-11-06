@@ -1,4 +1,4 @@
-# YellowScraper
+# yellow-scraper
 Scrape the french yellow pages (Pages Jaunes) with puppeteer
 
 ## 🏁 Installation

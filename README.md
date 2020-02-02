@@ -1,6 +1,8 @@
 # yellow-scraper
 Scrape the french yellow pages (Pages Jaunes) with puppeteer
 
+> :warning: **MAY BE DEPRECATED**: Since Pages Jaunes pages and data structure may change, this scraper won't be automatically updated.
+
 ## Installation
 ```bash
 npm install
